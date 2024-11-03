@@ -607,6 +607,7 @@ footer img{
     }
     section.home .features img {
         width: calc(100% - 30px);
+        margin: 20px 0;
     }
 
     .hero h2 {
