@@ -201,9 +201,17 @@ nav ul li a.active {
 
 /* Mobile-specific styles */
 @media (max-width: 768px) {
+    /* Change header styling on mobile/tablet device */
+    header {
+        position: sticky;
+        top: 0;
+    }
+
     /* Show hamburger icon on mobile */
     .nav-toggle-label {
         display: block;
+        z-index: 100001;
+        position: fixed;
     }
 
     /* Hide navigation menu by default on mobile */
@@ -596,6 +604,9 @@ footer img{
     .team img,
     .about-us img {
         width: 100%;
+    }
+    section.home .features img {
+        width: calc(100% - 30px);
     }
 
     .hero h2 {
