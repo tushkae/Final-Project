@@ -514,6 +514,11 @@ footer img{
     width: 25%;
 }
 
+i {
+    font-size: 40px;
+    color: white;
+}
+
 /* Responsive Design */
 
 /* Screens Up to 768px */
